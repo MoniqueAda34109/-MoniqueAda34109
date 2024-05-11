@@ -1,0 +1,13 @@
+  @Test
+  public void test01(){
+      //NullPointerException
+    int[] arr=null;
+    System.out.println(arr.length);
+  }
+ @Test
+  public void test02(){
+    //ClassCastException
+    Person p = new Man();
+    Woman w = (Woman) p;
+  }
+  
