@@ -1,0 +1,17 @@
+        draw(3 * l / 4)
+        roo.left(30)
+        roo.pensize(2)
+        roo.backward(l)
+
+
+draw(20)
+
+roo.left(270)
+roo.speed(2000)
+
+
+# recursion
+def draw(l):
+    if (l < 10):
+        return
+    else:
