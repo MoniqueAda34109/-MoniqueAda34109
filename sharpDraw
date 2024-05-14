@@ -1,0 +1,13 @@
+	}
+
+	if (!move(UP, id))
+	{
+		return;
+	}
+
+	sharpDraw(-_id);
+	_id = id;
+}
+
+void Game::keyControl()
+{
