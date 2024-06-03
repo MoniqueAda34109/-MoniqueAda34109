@@ -1,0 +1,4 @@
+   for(int i=0; i<des_data_rl; i++)
+        data64_table[i] = dataL32_table[i];
+    for(int i=des_data_rl; i<des_standard; i++)
+        data64_table[i] = dataR32_table[i-32];
